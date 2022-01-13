@@ -1,4 +1,4 @@
-<img src="https://doc-04-5c-docs.googleusercontent.com/docs/securesc/527i1dtp9irtd0lsmmflldm00jpsbpn5/lja430o3t4iggal1p2hqbded2651fbg3/1642047900000/17963273280378403018/17963273280378403018/19A3hL081nQIjCCz8HePAFPOdIw3mXeY_?authuser=0" width="100%">
+<img src="https://raw.githubusercontent.com/brahmantiodiaz/CRUD_laravel_tanpa_reload/main/category%20crud.PNG" width="100%">
 
 # Laravel 8 CRUD Tanpa Reload 
 Laravel 8 CRUD Tanpa Reload
