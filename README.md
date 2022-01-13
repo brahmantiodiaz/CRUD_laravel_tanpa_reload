@@ -9,7 +9,7 @@ Set up
 
 untuk set up project ini, pertama clone repositiory
 
-$ git clone https://github.com/siddharth018/Laravel-8-CRUD-using-ajax.git
+$ git clone https://github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload.git
 Change your working directory into the project directory
 
 $ cd Laravel-8-CRUD-using-ajax
