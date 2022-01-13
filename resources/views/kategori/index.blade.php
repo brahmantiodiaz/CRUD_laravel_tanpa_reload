@@ -58,6 +58,7 @@
         src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.11.3/af-2.3.7/b-2.1.1/cr-1.5.5/date-1.1.1/fc-4.0.1/fh-3.2.1/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.0/sp-1.4.0/sl-1.3.4/sr-1.0.1/datatables.min.js">
     </script>
     <script>
+        //seting header csrf token laravel untuk semua request ajax 
         $(function() {
             $.ajaxSetup({
                 headers: {
@@ -67,6 +68,7 @@
 
         });
 
+        //membuat datatables
         var table = $('.table').DataTable({
             processing: true,
             autoWidth: false,
@@ -75,6 +77,7 @@
             processing: true,
             serverSide: true,
             dom: 'lfrtip',
+            //mengambil data dengan category controller
             ajax: "{{ route('category.index') }}",
             columns: [{
                     data: 'DT_RowIndex',
@@ -98,6 +101,7 @@
                 },
             ]
         });
+
         //save data untuk edit atau create
         $('#saveBtn').click(function(e) {
             var formdata = $("#modal-form form").serializeArray();
@@ -140,10 +144,8 @@
 
         //delete data
         $('body').on('click', '.deleteStory', function() {
-
             var id = $(this).data("id");
             confirm("Are You sure want to delete !");
-
             $.ajax({
                 type: "DELETE",
                 url: "{{ route('category.store') }}" + '/' + id,
