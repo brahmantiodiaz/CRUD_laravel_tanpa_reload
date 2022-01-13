@@ -10,33 +10,38 @@ Set up
 untuk set up project ini, pertama clone repositiory
 
 $ git clone https://github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload.git
-Change your working directory into the project directory
+Pindah direktori
 
 $ cd CRUD_Laravel_tanpa_reload
 Then install dependencies using Composer
+Install dependensi menggunakan Composer
 
-composer install
+$ composer install
 
-Run the application with the following command
+Jalan kan migration
+
+$ php artisan migrate
+
+Jalan kan server menggunakan command
 
 $ php artisan serve
 
-Remember to visit http://127.0.0.1:8000/category
+Lalu kunjungi http://127.0.0.1:8000/category
 
-Built With
+Dibuat dengan
 Laravel - The PHP Framework For Web Artisans.
 
 Mysql - A relational database management system.
 
 
 ## Youtube
-Join in youtube
-(https://youtube.com/channel/UCBu9ceRtONcpWqclZHK2jvg).
+Join in youtube.
+[Equine Technology Group](https://youtube.com/channel/UCBu9ceRtONcpWqclZHK2jvg).
 
 ## Instagram
-Join in Instagram
-(https://www.instagram.com/xsisacademy/)
-()
-## Linkedin
-Join in Linkedin
-(https://www.linkedin.com/in/siddharth-shukla-32873659/)
+Join in Instagram.
+[Xsis Academy](https://www.instagram.com/xsisacademy/).
+[Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/).
+[Equine Global](https://www.instagram.com/equineglobal/).
+
+
