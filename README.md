@@ -69,11 +69,9 @@ Join in youtube.
 
 ## Instagram
 Join in Instagram.
-<br>
-- [Xsis Academy](https://www.instagram.com/xsisacademy/).
-<br>
-- [Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/).
-<br>
-- [Equine Global](https://www.instagram.com/equineglobal/).
+<br />
+- [Xsis Academy](https://www.instagram.com/xsisacademy/). <br />
+- [Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/). <br />
+- [Equine Global](https://www.instagram.com/equineglobal/). <br />
 
 
