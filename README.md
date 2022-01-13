@@ -12,7 +12,7 @@ untuk set up project ini, pertama clone repositiory
 $ git clone https://github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload.git
 Change your working directory into the project directory
 
-$ cd Laravel-8-CRUD-using-ajax
+$ cd CRUD_Laravel_tanpa_reload
 Then install dependencies using Composer
 
 composer install
