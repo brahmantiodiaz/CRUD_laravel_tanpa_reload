@@ -7,26 +7,54 @@ Untuk mengikuti, Aplikasi ini telah didokumentasikan sebagai artikel di [Xsis Ac
 
 Set up
 
-untuk set up project ini, pertama clone repositiory
+## Tentang Aplikasi
 
-$ git clone https://github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload.git
-Pindah direktori
+Aplikasi CRUD tanpa reload sederhana menggunakan datatables .
 
-$ cd CRUD_Laravel_tanpa_reload
-Then install dependencies using Composer
-Install dependensi menggunakan Composer
+## Instalasi
+#### Via Git
+```bash
+git clone https://github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload.git
+```
 
-$ composer install
+### Download ZIP
+[Link](https://codeload.github.com/brahmantiodiaz/CRUD_laravel_tanpa_reload/zip/refs/heads/main)
 
-Jalan kan migration
+### Setup Aplikasi
+Jalankan perintah 
+```bash
+composer install
+```
+Copy file .env dari .env.example
+```bash
+cp .env.example .env
+```
+Konfigurasi file .env
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_belajarcrud
+DB_USERNAME=root
+DB_PASSWORD=
+```
+Generate key
+```bash
+php artisan key:generate
+```
+Migrate database
+```bash
+php artisan migrate
+```
+Seeder table User, Pengaturan
+```bash
+php artisan db:seed
+```
+Menjalankan aplikasi
+```bash
+php artisan serve
+```
 
-$ php artisan migrate
-
-Jalan kan server menggunakan command
-
-$ php artisan serve
-
-Lalu kunjungi http://127.0.0.1:8000/category
 
 Dibuat dengan
 Laravel - The PHP Framework For Web Artisans.
@@ -40,8 +68,11 @@ Join in youtube.
 
 ## Instagram
 Join in Instagram.
+<br>
 [Xsis Academy](https://www.instagram.com/xsisacademy/).
+<br>
 [Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/).
+<br>
 [Equine Global](https://www.instagram.com/equineglobal/).
 
 
