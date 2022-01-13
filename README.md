@@ -64,15 +64,16 @@ Mysql - A relational database management system.
 
 ## Youtube
 Join in youtube.
-[Equine Technology Group](https://youtube.com/channel/UCBu9ceRtONcpWqclZHK2jvg).
+<br>
+- [Equine Technology Group](https://youtube.com/channel/UCBu9ceRtONcpWqclZHK2jvg).
 
 ## Instagram
 Join in Instagram.
 <br>
-[Xsis Academy](https://www.instagram.com/xsisacademy/).
+- [Xsis Academy](https://www.instagram.com/xsisacademy/).
 <br>
-[Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/).
+- [Xsis Mitra Utama](https://www.instagram.com/ptxsismitrautama/).
 <br>
-[Equine Global](https://www.instagram.com/equineglobal/).
+- [Equine Global](https://www.instagram.com/equineglobal/).
 
 
