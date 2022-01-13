@@ -41,7 +41,7 @@
                                         <th width="5%">No</th>
                                         <th>Name</th>
                                         <th>Description</th>
-                                        <th width="15%"><i class="fas fa-cog"></i></th>
+                                        <th width="10%"><i class="fas fa-cog"></i></th>
                                     </tr>
                                 </thead>
                             </table>
