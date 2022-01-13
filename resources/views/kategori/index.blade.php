@@ -167,7 +167,7 @@
             $('#modal-form [name=name]').focus();
         }
 
-        //validasi name dan description harus di isi
+        //validasi name harus di isi
         function validation(data) {
             let formIsValid = true;
             $('span[id^="error"]').text('');
