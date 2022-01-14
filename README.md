@@ -44,10 +44,6 @@ Migrate database
 ```bash
 php artisan migrate
 ```
-Seeder table User, Pengaturan
-```bash
-php artisan db:seed
-```
 Menjalankan aplikasi
 ```bash
 php artisan serve
