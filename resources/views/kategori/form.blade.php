@@ -5,7 +5,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title"></h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
@@ -24,7 +24,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-sm btn-flat btn-primary" id="saveBtn"><i
                             class="fa fa-save"></i> Save</button>
-                    <button type="button" class="btn btn-sm btn-flat btn-warning" data-dismiss="modal"><i
+                    <button type="button" class="btn btn-sm btn-flat btn-warning close-btn" data-dismiss="modal"><i
                             class="fa fa-arrow-circle-left"></i> Cancel</button>
                 </div>
             </div>

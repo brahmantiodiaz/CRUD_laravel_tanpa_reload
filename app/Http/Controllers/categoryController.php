@@ -18,9 +18,9 @@ class categoryController extends Controller
                 ->addIndexColumn()
                 ->addColumn('action', function ($row) {
                     //kita tambahkan button edit dan hapus
-                    $btn = '<a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $row->id . '" data-original-title="Edit" class="edit btn btn-primary btn-sm editStory"><i class="fa fa-edit"></i>Edit</a>';
+                    $btn = '<a href="javascript:void(0)" data-id="' . $row->id . '" class="edit btn btn-primary btn-sm editKategori"><i class="fa fa-edit"></i>Edit</a>';
 
-                    $btn = $btn . ' <a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $row->id . '" data-original-title="Delete" class="btn btn-danger btn-sm deleteStory"><i class="fa fa-trash"></i>Delete</a>';
+                    $btn = $btn . ' <a href="javascript:void(0)" data-id="' . $row->id . '" class="btn btn-danger btn-sm deleteKategori"><i class="fa fa-trash"></i>Delete</a>';
 
                     return $btn;
                 })

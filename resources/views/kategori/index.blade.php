@@ -101,6 +101,11 @@
                 },
             ]
         });
+        
+        //close modal
+        $('.close-btn').click(function(e) {
+            $('.modal').modal('hide')
+        });
 
         //save data untuk edit atau create
         $('#saveBtn').click(function(e) {
@@ -130,7 +135,7 @@
 
 
         //memunculkan form edit
-        $('body').on('click', '.editStory', function() {
+        $('body').on('click', '.editKategori', function() {
             var id = $(this).data('id');
             console.log(id);
             $.get("{{ route('category.index') }}" + '/' + id + '/edit', function(data) {
@@ -143,19 +148,20 @@
         });
 
         //delete data
-        $('body').on('click', '.deleteStory', function() {
+        $('body').on('click', '.deleteKategori', function() {
             var id = $(this).data("id");
-            confirm("Are You sure want to delete !");
-            $.ajax({
-                type: "DELETE",
-                url: "{{ route('category.store') }}" + '/' + id,
-                success: function(data) {
-                    $('.table').DataTable().draw();
-                },
-                error: function(data) {
-                    console.log('Error:', data);
-                }
-            });
+            if (confirm("Are You sure want to delete !") == true) {
+                $.ajax({
+                    type: "DELETE",
+                    url: "{{ route('category.store') }}" + '/' + id,
+                    success: function(data) {
+                        $('.table').DataTable().draw();
+                    },
+                    error: function(data) {
+                        console.log('Error:', data);
+                    }
+                });
+            }
         });
 
         //memunculkan form add
